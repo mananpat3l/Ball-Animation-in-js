@@ -1,0 +1,64 @@
+<!--  i Manan Patel,000826892 , certify that this material is my original work. 
+No other person's work has been used without due acknowledgment and i have not made 
+my work available to anyone else.-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/formexamples.css">
+    <title>Moving Ball</title>
+	
+    <script src="moveme.js">
+    </script>
+    <script>
+        function showInput() {
+        document.getElementById('display').innerHTML = 
+                    document.getElementById("name").value;
+		document.getElementById('dis').innerHTML = 
+                    document.getElementById("age").value;
+    }
+    </script>
+
+</head>
+
+<body>
+ <div id="container" class="container">
+<h1> PLEASE FILL UP THE FORM BEFORE PROCEDING TO THE GAME</h1>
+
+
+<form action="game.html" name="form1">
+<script src="moveme.js"></script>
+
+        Name: <input type="text" id="name" placeholder="name" name="name"><br> <br>
+		Age: <input type="number" id="age" placeholder="age" name="age"><br>
+		</form>
+        <input type="submit" value="Submit" placeholder="submit" name="submit" id="submitform" onclick="showInput()">
+        <button type="button" onclick="draw()" id="Play">Play</button>
+        
+        
+		
+<p>Hello <span id='display'></span> Welcome to the animation game</p>
+<p>Age: <span id='dis'></span></p>
+</div>
+</form>
+ 
+Your choice of Color: <input name="MyColorPicker"
+           type="color"
+           id="MyColorPicker"/> 
+           <div style="text-align:left">
+            <button onclick="draw()" name="speed">Increase speed</button>
+            <button type="reset" onclick="reset()" id="reset"> Reset Animation</button>
+        </div>
+           <canvas id="myCanvas" align="center" width="900" height="300">
+               <script src="moveme.js"></script>
+               
+             </canvas>
+             
+
+             
+</body>
+
+
+</html>

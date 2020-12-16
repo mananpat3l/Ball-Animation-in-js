@@ -1,0 +1,69 @@
+/*<!--  i Manan Patel,000826892 , certify that this material is my original work. 
+No other person's work has been used without due acknowledgment and i have not made 
+my work available to anyone else.*/
+.container {
+    max-width:1230px;
+    padding:10px;
+    box-sizing: border-box;
+    margin: auto;
+    border: 3px solid black;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:lightgreen;
+    font-size: 1em;
+    margin: 20px;
+}
+body{
+    background-color: greenyellow ;
+}
+canvas{
+    
+    background-color:white;
+}
+ 
+
+h1,
+#checklist {
+    text-align: center;
+}
+
+#checklist {
+    background-color: white;
+    color: cadetblue;
+    padding: 5px;
+    border: 1px solid gray;
+}
+
+input[type=text],
+input[type=number],
+input[type=submit] {
+    display: block;
+    box-sizing: border-box;
+    width: 50%;
+    font-size: 1.2em;
+    color:black;
+}
+
+input[type=submit] {
+    color: black;
+}
+
+input,
+#checklist {
+    margin-bottom: 5px;
+}
+
+span {
+    background-color: white;
+    padding: 3px;
+}
+
+.true {
+    background-color: darkseagreen;
+    color: white;
+}
+
+.false {
+    background-color: darkred;
+    color: white;
+}
